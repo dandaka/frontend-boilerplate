@@ -22,3 +22,8 @@ prod:
     - 'concurrent:prodFirst'
     - 'concurrent:prodSecond'
     - img
+
+server:
+  description: 'Local server'
+  tasks:
+    - 'concurrent:server'
