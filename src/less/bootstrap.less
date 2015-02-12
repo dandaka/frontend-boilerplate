@@ -1,61 +1,71 @@
 @bootpath: ~"../../bower_components/bootstrap/less/";
 
+// Core variables and mixins
+@import "@{bootpath}variables.less";
+@import "@{bootpath}mixins.less";
 
+// Reset and dependencies
+@import "@{bootpath}normalize.less";
+@import "@{bootpath}print.less";
+@import "@{bootpath}glyphicons.less";
+
+// Core CSS
+@import "@{bootpath}scaffolding.less";
+@import "@{bootpath}type.less";
+@import "@{bootpath}code.less";
+@import "@{bootpath}grid.less";
 
 
 /* All content from Bootstrap
 
-Usage:
+// Core variables and mixins
+@import "@{bootpath}variables.less";
 @import "@{bootpath}mixins.less";
 
-// Core variables and mixins
-@import "variables.less";
-@import "mixins.less";
-
 // Reset and dependencies
-@import "normalize.less";
-@import "print.less";
-@import "glyphicons.less";
+@import "@{bootpath}normalize.less";
+@import "@{bootpath}print.less";
+@import "@{bootpath}glyphicons.less";
 
 // Core CSS
-@import "scaffolding.less";
-@import "type.less";
-@import "code.less";
-@import "grid.less";
-@import "tables.less";
-@import "forms.less";
-@import "buttons.less";
+@import "@{bootpath}scaffolding.less";
+@import "@{bootpath}type.less";
+@import "@{bootpath}code.less";
+@import "@{bootpath}grid.less";
+@import "@{bootpath}tables.less";
+@import "@{bootpath}forms.less";
+@import "@{bootpath}buttons.less";
 
 // Components
-@import "component-animations.less";
-@import "dropdowns.less";
-@import "button-groups.less";
-@import "input-groups.less";
-@import "navs.less";
-@import "navbar.less";
-@import "breadcrumbs.less";
-@import "pagination.less";
-@import "pager.less";
-@import "labels.less";
-@import "badges.less";
-@import "jumbotron.less";
-@import "thumbnails.less";
-@import "alerts.less";
-@import "progress-bars.less";
-@import "media.less";
-@import "list-group.less";
-@import "panels.less";
-@import "responsive-embed.less";
-@import "wells.less";
-@import "close.less";
+@import "@{bootpath}component-animations.less";
+@import "@{bootpath}dropdowns.less";
+@import "@{bootpath}button-groups.less";
+@import "@{bootpath}input-groups.less";
+@import "@{bootpath}navs.less";
+@import "@{bootpath}navbar.less";
+@import "@{bootpath}breadcrumbs.less";
+@import "@{bootpath}pagination.less";
+@import "@{bootpath}pager.less";
+@import "@{bootpath}labels.less";
+@import "@{bootpath}badges.less";
+@import "@{bootpath}jumbotron.less";
+@import "@{bootpath}thumbnails.less";
+@import "@{bootpath}alerts.less";
+@import "@{bootpath}progress-bars.less";
+@import "@{bootpath}media.less";
+@import "@{bootpath}list-group.less";
+@import "@{bootpath}panels.less";
+@import "@{bootpath}responsive-embed.less";
+@import "@{bootpath}wells.less";
+@import "@{bootpath}close.less";
 
 // Components w/ JavaScript
-@import "modals.less";
-@import "tooltip.less";
-@import "popovers.less";
-@import "carousel.less";
+@import "@{bootpath}modals.less";
+@import "@{bootpath}tooltip.less";
+@import "@{bootpath}popovers.less";
+@import "@{bootpath}carousel.less";
 
 // Utility classes
-@import "utilities.less";
-@import "responsive-utilities.less";
+@import "@{bootpath}utilities.less";
+@import "@{bootpath}responsive-utilities.less";
 */

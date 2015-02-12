@@ -7,7 +7,8 @@ module.exports = {
 
     // Dev tasks
     devFirst: [
-        'jshint'
+        'jshint',
+        'jade'
     ],
     devSecond: [
         'less:dev',
@@ -16,7 +17,8 @@ module.exports = {
 
     // Production tasks
     prodFirst: [
-        'jshint'
+        'jshint',
+        'jade'
     ],
     prodSecond: [
         'less:prod',
