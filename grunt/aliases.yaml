@@ -29,3 +29,12 @@ server:
   description: 'Local server'
   tasks:
     - 'concurrent:server'
+
+build:
+  description: 'Usemin build process'
+  tasks:
+    - 'useminPrepare'
+    - 'concat:generated'
+    - 'cssmin:generated'
+    - 'uglify:generated'
+    - 'usemin'
