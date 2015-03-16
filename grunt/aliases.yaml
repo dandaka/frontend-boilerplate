@@ -7,6 +7,7 @@ dev:
   tasks:
     - 'concurrent:devFirst'
     - 'concurrent:devSecond'
+    - 'postcss:dev'
 img:
   description: 'Image tasks'
   tasks:
@@ -21,6 +22,7 @@ prod:
   tasks:
     - 'concurrent:prodFirst'
     - 'concurrent:prodSecond'
+    - 'postcss:prod'
     - img
 
 server:

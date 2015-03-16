@@ -11,7 +11,10 @@ module.exports =
     ]
   styles:
     files: [ 'src/less/*.less' ]
-    tasks: [ 'less:dev' ]
+    tasks: [
+      'less:dev'
+      'postcss:dev'
+    ]
   jade:
     files: [ 'src/jade/*.jade' ]
     tasks: [ 'jade:dev' ]
