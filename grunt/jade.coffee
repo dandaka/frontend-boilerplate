@@ -3,6 +3,7 @@ module.exports =
     options:
       outputStyle: 'nested'
       sourceMap: true
+      pretty: true
     files: [ {
       expand: true
       cwd: 'src/jade'
