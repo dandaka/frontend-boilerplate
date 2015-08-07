@@ -2,9 +2,9 @@ Front-end boilerplate.
 
 ## Contents ##
 
-— Bootstrap
-— Jade
-— LESS
+* Bootstrap
+* Jade
+* LESS
 
 ## Getting started ##
 
