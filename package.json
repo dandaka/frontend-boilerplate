@@ -16,7 +16,7 @@
     "grunt-contrib-uglify": "^0.8.0",
     "grunt-contrib-watch": "^0.6.1",
     "grunt-filerev": "^2.2.0",
-    "grunt-postcss": "^0.5.5",
+    "grunt-postcss": "^0.6.0",
     "grunt-usemin": "^3.0.0",
     "grunt-webfont": "^0.5.2",
     "load-grunt-config": "^0.16.0"
