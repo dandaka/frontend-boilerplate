@@ -1,7 +1,13 @@
 {
   "name": "Frontend-boilerplate",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Frontend-boilerplate",
+  "homepage": "https://github.com/dandaka/frontend-boilerplate",
+  "licence": "MIT",
+  "repository" :
+    { "type" : "git"
+    , "url" : "git@github.com:dandaka/frontend-boilerplate.git"
+    },
   "devDependencies": {
     "autoprefixer": "^6.0.3",
     "cssnano": "^3.2.0",
