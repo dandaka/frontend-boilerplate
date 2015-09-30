@@ -3,7 +3,7 @@ module.exports =
     options:
       map: true
       processors: [
-        require('autoprefixer-core')(browsers: 'last 2 version')
+        require('autoprefixer')(browsers: 'last 2 version')
       ]
     files: [ {
       expand: true
@@ -16,7 +16,7 @@ module.exports =
     options:
       map: false
       processors: [
-        require('autoprefixer-core')(browsers: 'last 2 version')
+        require('autoprefixer')(browsers: 'last 2 version')
         require('csswring')
       ]
     files: [ {
