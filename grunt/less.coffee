@@ -2,7 +2,7 @@ module.exports =
   dev:
     options:
       outputStyle: 'nested'
-      sourceMap: true
+      sourceMap: false
     files: [ {
       expand: true
       cwd: 'src/less'
