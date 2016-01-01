@@ -2,14 +2,23 @@ Front-end boilerplate.
 
 ## Contents ##
 
-* Bootstrap 3.x
+* Bootstrap 4.x alpha
 * Jade
-* LESS
+* SASS
+* Autoprefixer
+* Gulp
+* Gulp GA
 
 ## Getting started ##
 
-1. Install grunt dependencies (`npm install`)
-2. Install postcss and csswring
-3. Remove public/ from .gitignore
+1. Install dependencies (`npm install`)
+1. Remove public/ from .gitignore
 
-`grunt server` launches webserver on localhost.
+`gulp` compiles and launches webserver on localhost:8080.
+
+## 2DO ##
+
+- [ ] Fix LiveReload of SASS
+- [ ] Add gulp-responsive images
+- [ ] Fix favicon generator
+- [ ] Find a good webfonts generator
