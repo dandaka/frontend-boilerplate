@@ -9,6 +9,7 @@ Front-end boilerplate.
 * Autoprefixer
 * Google Analytics code injection
 * Favicons generator
+* LiveReload of Jade and SCSS changes (needs [LiveReload plugin](https://chrome.google.com/webstore/detail/livereload/jnihajbhpnppcggbcgedagnkighmdlei) to be installed and enabled)
 
 ## Getting started ##
 
@@ -21,6 +22,5 @@ Front-end boilerplate.
 
 ## 2DO ##
 
-- [ ] Fix LiveReload of SASS
 - [ ] Add gulp-responsive images
 - [ ] Find a good webfonts generator
