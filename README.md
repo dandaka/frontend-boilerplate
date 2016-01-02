@@ -8,6 +8,7 @@ Front-end boilerplate.
 * Autoprefixer
 * Gulp
 * Gulp GA
+* Favicons generator
 
 ## Getting started ##
 
@@ -20,5 +21,4 @@ Front-end boilerplate.
 
 - [ ] Fix LiveReload of SASS
 - [ ] Add gulp-responsive images
-- [ ] Fix favicon generator
 - [ ] Find a good webfonts generator

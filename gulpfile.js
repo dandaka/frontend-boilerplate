@@ -11,7 +11,10 @@ var autoprefixer = require('autoprefixer');
 var config = {
   bowerDir: './bower_components' ,
   gaId: 'UA-71710979-1',
-  url: 'dandaka.com'
+  url: 'dandaka.com',
+  appName: 'Fontend Boilerplate',
+  appDescription: 'Fontend Boilerplate',
+  developerName: 'Vlad Rafeev'
 }
 
 gulp.task('default', ['jade', 'sass', 'connect', 'watch']);
@@ -56,10 +59,10 @@ gulp.task('icons', function() { 
 });
  
 gulp.task("favicons", function () {
-  gulp.src("./public/img/bricks.jpg").pipe(favicons({
-      appName: "Vlad Rafeev",
-      appDescription: "Vlad Rafeev | software project manager",
-      developerName: "Vlad Rafeev",
+  gulp.src("./src/favicon.png").pipe(favicons({
+      appName: config.appName,
+      appDescription: config.appDescription,
+      developerName: config.developerName,
       developerURL: config.url,
       background: "#FFFFFF",
       path: "favicons/",
@@ -69,7 +72,7 @@ gulp.task("favicons", function () {
       version: 1.0,
       logging: true,
       online: false,
-      html: "favicons.html",
+      html: "./public/favicons/favicons.html",
       replace: true
   })).pipe(gulp.dest("./public/favicons"));
 });
