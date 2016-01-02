@@ -23,6 +23,8 @@
     "gulp-ga": "0.0.7",
     "gulp-jade": "^1.1.0",
     "gulp-postcss": "^6.0.1",
+    "gulp-print": "^2.0.1",
+    "gulp-responsive": "^1.2.1",
     "gulp-sass": "^2.1.1",
     "gulp-watch": "^4.3.5"
   }

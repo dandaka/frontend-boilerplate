@@ -2,12 +2,12 @@ Front-end boilerplate.
 
 ## Contents ##
 
+* Gulp
 * Bootstrap 4.x alpha
 * Jade
 * SASS
 * Autoprefixer
-* Gulp
-* Gulp GA
+* Google Analytics code injection
 * Favicons generator
 
 ## Getting started ##

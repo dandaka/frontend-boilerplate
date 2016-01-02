@@ -7,6 +7,8 @@ var favicons = require('gulp-favicons');
 var ga = require('gulp-ga');
 var postcss      = require('gulp-postcss');
 var autoprefixer = require('autoprefixer');
+var responsive = require('gulp-responsive');
+var print = require('gulp-print');
 
 var config = {
   bowerDir: './bower_components' ,
@@ -75,4 +77,32 @@ gulp.task("favicons", function () {
       html: "./public/favicons/favicons.html",
       replace: true
   })).pipe(gulp.dest("./public/favicons"));
+});
+
+gulp.task('responsive', function () {
+  gulp.src('./src/img/**/*.png')
+    .pipe(print())
+    .pipe(responsive([{
+      name: 'OC_*.png',
+      width: 600
+      }],
+      {
+        errorOnUnusedImage: false
+      }
+    ))
+    .pipe(gulp.dest('./public/img/'));
+});
+
+gulp.task('responsive2', function () {
+  gulp.src('./src/img/**/*.jpg')
+    .pipe(print())
+    .pipe(responsive([{
+      name: 'banner.jpg',
+      width: 600
+      }],
+      {
+        errorOnUnusedImage: false
+      }
+    ))
+    .pipe(gulp.dest('./public/img/'));
 });
