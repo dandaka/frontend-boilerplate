@@ -17,6 +17,8 @@ Front-end boilerplate.
 
 `gulp` compiles and launches webserver on localhost:8080.
 
+`gulp favicons` generates favicons.
+
 ## 2DO ##
 
 - [ ] Fix LiveReload of SASS
