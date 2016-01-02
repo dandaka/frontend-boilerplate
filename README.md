@@ -13,7 +13,7 @@ Front-end boilerplate.
 ## Getting started ##
 
 1. Install dependencies (`npm install`)
-1. Remove public/ from .gitignore
+1. Remove `public/` and `src/img` from .gitignore
 
 `gulp` compiles and launches webserver on localhost:8080.
 
