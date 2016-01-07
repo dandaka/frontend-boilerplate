@@ -80,15 +80,16 @@ gulp.task("favicons", function () {
 });
 
 gulp.task('responsive', function () {
-  gulp.src('./src/img/**/*.png')
-    .pipe(print())
+  gulp.src('./src/img/05OC/*.png')
     .pipe(responsive([{
-      name: 'OC_*.png',
-      width: 600
-      }],
-      {
-        errorOnUnusedImage: false
-      }
+      name: '*.png',
+      width: 600,
+      format: 'jpeg',
+      rename: { extname: '.jpg' }
+    }],
+    {
+      errorOnUnusedImage: false
+    }
     ))
     .pipe(gulp.dest('./public/img/'));
 });
