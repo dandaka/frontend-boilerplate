@@ -84,7 +84,6 @@ gulp.task('responsive', function () {
     .pipe(responsive([{
       name: '*.png',
       width: 600,
-      format: 'jpeg',
       rename: { extname: '.jpg' }
     }],
     {
