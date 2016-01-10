@@ -17,16 +17,16 @@
   },
   "homepage": "https://github.com/dandaka/frontend-boilerplate",
   "devDependencies": {
-    "autoprefixer": ">6.2.3",
-    "fontfaceobserver": ">1.6.2",
-    "gulp-connect": ">2.3.1",
-    "gulp-favicons": ">2.2.2",
-    "gulp-ga": "0.0.7",
-    "gulp-jade": ">1.1.0",
-    "gulp-postcss": ">6.0.1",
-    "gulp-print": ">2.0.1",
+    "autoprefixer": ">=6.2.3",
+    "fontfaceobserver": ">=1.6.2",
+    "gulp-connect": ">=2.3.1",
+    "gulp-favicons": ">=2.2.2",
+    "gulp-ga": ">=0.0.7",
+    "gulp-jade": ">=1.1.0",
+    "gulp-postcss": ">=6.0.1",
+    "gulp-print": ">=2.0.1",
     "gulp-responsive": "github:mahnunchik/gulp-responsive#next",
-    "gulp-sass": ">2.1.1",
-    "gulp-watch": ">4.3.5"
+    "gulp-sass": ">=2.1.1",
+    "gulp-watch": ">=4.3.5"
   }
 }
