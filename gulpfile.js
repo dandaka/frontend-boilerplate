@@ -14,8 +14,8 @@ var config = {
   bowerDir: './bower_components' ,
   gaId: 'UA-71710979-1',
   url: 'dandaka.com',
-  appName: 'Fontend Boilerplate',
-  appDescription: 'Fontend Boilerplate',
+  appName: 'Frontend Boilerplate',
+  appDescription: 'Frontend Boilerplate',
   developerName: 'Vlad Rafeev'
 }
 
